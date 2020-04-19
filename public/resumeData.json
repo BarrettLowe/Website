@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name":"Barrett Lowe",
+    "occupation":"Software Engineer",
+    "description":"I specialize in C++ and Python development with interests in home automation, computer vision, IOT, and machine learning.",
+    "image":"profilepic.jpg",
+    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. My wife, Brandie, and I live in Fort Worth and are expecting our first child this summer. During my free time, you can find me in the woodshop building something or on the computer managing our 'smart home' with the open source project Home Assistant.",
+    "contactmessage":"If you're interested, please feel free to contact me below. Thank you!",
+    "email": "barrett.lowe@gmail.com",
+    "phone": "817-807-0916",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Fort Worth",
+      "state":"Texas",
+      "zip": "76133"
+    },
+    "website": "http://barrett.bythelowes.com",
+    "resumedownload":"http://localhost.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/barrett-l-450a6aa6/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/barrettlowe",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I'm mostly experienced in C++ and Python. I've used many other technologies but ones listed below are my strongest.",
+    "education":[
+      {
+        "school":"University of Texas at Tyler",
+        "degree":"M.S.C.S - Computer Vision",
+        "graduated":"May 2015",
+        "description":"Researched artificial intelligence algorithms, primarily decision trees and bootstrapped learning."
+      },
+      {
+        "school":"University of North Carolina at Greensboro",
+        "degree":"B.A. Technical Theatre",
+        "graduated":"May 2013",
+        "description":"Minor - Computer Science"
+      }
+    ],
+    "work":[
+      {
+        "company":"Electronic Theatre Controls",
+        "title":"Embedded Software Engineer",
+        "years":"September 2018 - Present",
+        "description":"Primary responsibility is development of embedded safety systems for hoists and hoist controllers. Secondsary responsibilities include automated testing of software, automated builds and deployment to quality assurance team and maintaining various development servers (jenkins, department wiki, automated test area signs, etc)."
+      },
+      {
+        "company":"Lockheed Martin - Aeronautics",
+        "title":"Software Engineer",
+        "years":"August 2017 - August 2018",
+        "description":"Developed software for the F35 virtual cockpit including environmental graphics, weapon systems simulation, pilot-vehicle interface, and player networking."
+      },
+      {
+        "company": "Raytheon Missile Systems",
+        "title": "Systems Engineer",
+        "years": "May 2015 - August 2017",
+        "description": "Developed software architecture and guidance/tracking systems for hypersonic and supersonic missiles. Assisted with transformation of build system for fast feedback including Ganglia and SLURM grid optimization."
+      }
+    ],
+    "skills":[
+      {
+        "name": "C++",
+        "level": "80%"
+      },
+      {
+        "name":"Git",
+        "level":"75%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "Linux Environment",
+        "level": "65%"
+      },
+      {
+        "name": "CMake",
+        "level": "63%"
+      },
+      {
+        "name":"Jenkins",
+        "level":"60%"
+      },
+      {
+        "name": "Perforce",
+        "level": "55%"
+      },
+      {
+        "name":"Amazon Web Services",
+        "level":"30%"
+      }
+
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
