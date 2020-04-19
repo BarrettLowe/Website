@@ -211,6 +211,12 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
+#about .cert-logo {
+   position: relative;
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+}
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -279,6 +285,12 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+#resume .pub-title{
+   font: 14px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
 }
 
 /*----------------------------------------------*/

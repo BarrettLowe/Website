@@ -2,9 +2,15 @@
   "main": {
     "name":"Barrett Lowe",
     "occupation":"Software Engineer",
-    "description":"I specialize in C++ and Python development with interests in home automation, computer vision, IOT, and machine learning.",
+    "description":"I specialize in C++ and Python development with interests in home automation, computer vision, IOT, machine learning, and cloud-based solutions.",
     "image":"profilepic.jpg",
-    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. My wife, Brandie, and I live in Fort Worth and are expecting our first child this summer. During my free time, you can find me in the woodshop building something or on the computer managing our 'smart home' with the open source project Home Assistant.",
+    "credits": [
+      {
+      "name": "Tim Cummins",
+      "link": "https://www.flickr.com/photos/timcummins/7423523720/in/photolist"
+      }
+    ],
+    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. I have two AWS certifications and am interested in transitioning to development of cloud based solutions. My wife, Brandie, and I live in Fort Worth and are expecting our first child this summer. During my free time, you can find me in the woodshop building something or on the computer managing our 'smart home' with the open source project Home Assistant.",
     "contactmessage":"If you're interested, please feel free to contact me below. Thank you!",
     "email": "barrett.lowe@gmail.com",
     "phone": "817-807-0916",
@@ -27,6 +33,18 @@
         "url":"http://github.com/barrettlowe",
         "className":"fa fa-github"
       }
+    ],
+    "certs":[
+      {
+        "name": "AWS Solutions Architect",
+        "logo": "AWS_SA.png",
+        "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-06-01&ci=AWS00515429"
+      },
+      {
+        "name": "AWS Developer",
+        "logo": "AWS_Dev.png",
+        "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-06-16&ci=AWS00515429"
+      }
     ]
   },
   "resume":{
@@ -36,7 +54,19 @@
         "school":"University of Texas at Tyler",
         "degree":"M.S.C.S - Computer Vision",
         "graduated":"May 2015",
-        "description":"Researched artificial intelligence algorithms, primarily decision trees and bootstrapped learning."
+        "description":"Researched artificial intelligence algorithms, primarily decision trees and bootstrapped learning.",
+        "publications": [
+          {
+            "title":"Multispectral Image Analysis Using Random Forest",
+            "author":"Barrett Lowe and Arun D. Kulkarni",
+            "link": "https://www.researchgate.net/publication/276855567_Multispectral_Image_Analysis_Using_Random_Forest"
+          },
+          {
+            "title":"Random Forest Algorithm for Land Cover Classification",
+            "author":"Arun D. Kulkarni and Barrett Lowe",
+            "link":"https://www.semanticscholar.org/paper/Random-Forest-Algorithm-for-Land-Cover-Kulkarni-Lowe/2731ce300dcadd70302742113cfc65554e2cbe1b"
+          }
+        ]
       },
       {
         "school":"University of North Carolina at Greensboro",

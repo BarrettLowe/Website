@@ -14,18 +14,29 @@ class About extends Component {
          var phone = this.props.data.phone;
          var email = this.props.data.email;
          var resumeDownload = this.props.data.resumedownload;
+         var certs = this.props.data.certs.map(function (cert) {
+            var logo = "images/" + cert.logo
+            return <a href={cert.ref}><img className="cert-logo" src={logo} alt={cert.name} /></a>
+         });
       }
 
       return (
          <section id="about">
             <div className="row">
                <div className="three columns">
-                  <img className="profile-pic" src={profilepic} alt="Barrett Lowe Profile Pic" />
+                  <div className="row">
+                     <img className="profile-pic" src={profilepic} alt="Barrett Lowe Profile Pic" />
+                  </div>
+
+
                </div>
                <div className="nine columns main-col">
                   <h2>About Me</h2>
 
                   <p>{bio}</p>
+                  <div className="row">
+                     <p>{certs}</p>
+                  </div>
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>Contact Details</h2>
