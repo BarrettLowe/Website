@@ -48,7 +48,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I'm mostly experienced in C++ and Python. I've used many other technologies but ones listed below are my strongest.",
+    "skillmessage":"I'm mostly experienced in C++ and Python. I've used many other technologies but the ones listed below are my strongest.",
     "education":[
       {
         "school":"University of Texas at Tyler",
@@ -80,7 +80,7 @@
         "company":"Electronic Theatre Controls",
         "title":"Embedded Software Engineer",
         "years":"September 2018 - Present",
-        "description":"Primary responsibility is development of embedded safety systems for hoists and hoist controllers. Secondsary responsibilities include automated testing of software, automated builds and deployment to quality assurance team and maintaining various development servers (jenkins, department wiki, automated test area signs, etc)."
+        "description":"Primary responsibility is to develop embedded safety systems for hoists and hoist controllers. Secondary responsibilities include automated testing of software, automated builds and deployment to quality assurance team and maintaining various development servers (jenkins, department wiki, automated test area signs, etc)."
       },
       {
         "company":"Lockheed Martin - Aeronautics",
