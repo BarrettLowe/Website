@@ -16,7 +16,8 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: {},
+      key: "AppState"
     };
 
     ReactGA.initialize('UA-110570651-1');

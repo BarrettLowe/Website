@@ -6,14 +6,13 @@ class Resume extends Component {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function (education) {
-        var pubs = ""
         if ("publications" in education) {
           var pubs = []
-          var title = <h4>Publications:</h4>
+          var title = <h4 key="NA">Publications:</h4>
           pubs.push(title)
 
           pubs.push(education.publications.map(function (pub) {
-            return <li><a className="pub-title" href={pub.link}>{pub.title}</a> <span>&bull;</span> {pub.author}</li>
+            return <li key={pub.title}><a className="pub-title" href={pub.link}>{pub.title}</a> <span>&bull;</span> {pub.author}</li>
           }));
         }
         return <div key={education.school}>

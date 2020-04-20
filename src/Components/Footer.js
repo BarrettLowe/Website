@@ -8,7 +8,7 @@ class Footer extends Component {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       });
       var credits = this.props.data.credits.map(function (cred) {
-        return <li> Thanks to <a title={cred.name} href={cred.link}>{cred.name}</a> for the orignal header photo!</li >
+        return <li key={cred.name}> Thanks to <a title={cred.name} href={cred.link}>{cred.name}</a> for the orignal header photo!</li >
       });
 
     }
