@@ -2,7 +2,7 @@
   "main": {
     "name":"Barrett Lowe",
     "occupation":"Software Engineer",
-    "description":"I specialize in C++ and Python development with interests in home automation, computer vision, IOT, machine learning, and cloud-based solutions.",
+    "description":"I specialize in C++ and Python development with interests in home automation, computer vision, IOT, machine learning, and cloud-based solutions",
     "image":"profilepic.jpg",
     "credits": [
       {
@@ -10,7 +10,7 @@
       "link": "https://www.flickr.com/photos/timcummins/7423523720/in/photolist"
       }
     ],
-    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. I have two AWS certifications and am interested in transitioning to development of cloud based solutions. My wife, Brandie, and I live in Fort Worth and are expecting our first child this summer. During my free time, you can find me in the woodshop building something or on the computer managing and improving our 'smart home' with the open source project Home Assistant.",
+    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. I have two AWS certifications and am interested in transitioning to development of cloud based solutions. My wife, Brandie, and I live in Fort Worth and recently welcomed our first child into the world! During my free time, you can find me in the woodshop building something or on the computer managing and improving our 'smart home' with the open source project Home Assistant.",
     "contactmessage":"If you're interested, please feel free to contact me below. Thank you!",
     "email": "barrett.lowe@gmail.com",
     "phone": "817-807-0916",
@@ -21,7 +21,7 @@
       "zip": "76133"
     },
     "website": "http://barrett.bythelowes.com",
-    "resumedownload":"http://localhost.com",
+    "resumedownload":"https://randomtoshare.s3.amazonaws.com/Resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -48,7 +48,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I'm mostly experienced in C++ and Python. I've used many other technologies but the ones listed below are my strongest.",
+    "skillmessage":"I'm most experienced in C++ and Python. I've used many other technologies but the ones listed below are my strongest.",
     "education":[
       {
         "school":"University of Texas at Tyler",
@@ -80,7 +80,7 @@
         "company":"Electronic Theatre Controls",
         "title":"Embedded Software Engineer",
         "years":"September 2018 - Present",
-        "description":"Primary responsibility is to develop embedded safety systems for hoists and hoist controllers. Secondary responsibilities include automated testing of software, automated builds and deployment to quality assurance team and maintaining various development servers (jenkins, department wiki, automated test area signs, etc)."
+        "description":"Developing embedded safety systems for hoists and hoist controllers. Secondary responsibilities include automated testing of software, automated builds and deployment to quality assurance team and maintaining various development servers (jenkins, department wiki, automated test area warning signs, etc)."
       },
       {
         "company":"Lockheed Martin - Aeronautics",
@@ -134,47 +134,35 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Home Assistant",
+        "category":"My Home Assistant Setup and Configuration",
+        "image":"HALogo.png",
+        "url":"https://github.com/BarrettLowe/HomeAssistantConfig"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"ESPHome Setup",
+        "category":"Configuration for ESP Devices Around the House",
+        "image":"ESPLogo.png",
+        "url":"https://github.com/BarrettLowe/esphome-config"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Dog Trainer Program",
+        "category":"Computer Vision project to keep my dogs off the couch.",
+        "image":"dogs.jpg",
+        "url":"https://github.com/BarrettLowe/DogTrainer"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Master's Thesis",
+        "category":"The Random Forest Algorithm with Application to Multispectral Image Analysis",
+        "image":"birch-forest.jpg",
+        "url":"http://hdl.handle.net/10950/260"
       },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
-      }
+    {
+        "title": "Online Portfolio",
+        "category": "The Repository for this website. Not my own design but adjusted to fit me!",
+        "image": "portfolio.jpg",
+        "url": "https://github.com/BarrettLowe/Website"
+    }
     ]
   }
 }
