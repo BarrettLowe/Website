@@ -4,11 +4,12 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
+    commands:
+      - yarn install
   build:
     commands:
-      - npm -version
-      - npm run-script build
+      - yarn build
 artifacts:
-  files:
-    - '**/*'
-  base-directory: 'public'
+  type: zip
+  paths:
+    - './build/**/*'
