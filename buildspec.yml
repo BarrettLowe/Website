@@ -5,11 +5,16 @@ phases:
     runtime-versions:
       nodejs: 10
     commands:
+      - ls
+      - pwd
       - yarn install
   build:
     commands:
+      - pwd
       - yarn build
+      - ls
 artifacts:
   type: zip
+  base-directory: 'build'
   paths:
-    - './build/public/*'
+    - '**/*'
