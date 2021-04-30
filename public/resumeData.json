@@ -10,7 +10,7 @@
       "link": "https://www.flickr.com/photos/timcummins/7423523720/in/photolist"
       }
     ],
-    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. I have two AWS certifications and am interested in transitioning to development of cloud based solutions. My wife, Brandie, and I live in Fort Worth and recently welcomed our first child into the world! During my free time, you can find me in the woodshop building something or on the computer managing and improving our 'smart home' with the open source project Home Assistant.",
+    "bio":"I'm C++/Python developer and have worked on a range of products and packages from guided missiles to hoist safety and control systems. My wife, Brandie, and I live in Fort Worth and recently welcomed our first child into the world! During my free time, you can find me in the woodshop building something or on the computer managing and improving our 'smart home' with the open source project Home Assistant.",
     "contactmessage":"If you're interested, please feel free to contact me below. Thank you!",
     "email": "barrett.lowe@gmail.com",
     "phone": "817-807-0916",
@@ -34,18 +34,18 @@
         "className":"fa fa-github"
       }
     ],
-    "certs":[
-      {
-        "name": "AWS Solutions Architect",
-        "logo": "AWS_SA.png",
-        "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-06-01&ci=AWS00515429"
-      },
-      {
-        "name": "AWS Developer",
-        "logo": "AWS_Dev.png",
-        "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-06-16&ci=AWS00515429"
-      }
-    ]
+    // "certs":[
+    //   {
+    //     "name": "AWS Solutions Architect",
+    //     "logo": "AWS_SA.png",
+    //     "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-06-01&ci=AWS00515429"
+    //   },
+    //   {
+    //     "name": "AWS Developer",
+    //     "logo": "AWS_Dev.png",
+    //     "ref": "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-06-16&ci=AWS00515429"
+    //   }
+    // ]
   },
   "resume":{
     "skillmessage":"I'm most experienced in C++ and Python. I've used many other technologies but the ones listed below are my strongest.",
